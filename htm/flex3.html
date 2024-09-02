@@ -1,0 +1,75 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    *{
+        margin:0;
+        padding:0;
+    }
+    .one{
+        background-color: green;
+        height:300px;
+        flex-basis:100%
+    }
+    .box{
+        background-color: aquamarine;
+        height:300px;
+        flex-basis:30%;
+    }
+    .two{
+        display:flex;
+        justify-content:space-around;
+        flex-wrap:wrap;
+        height:300px;
+        margin-top:10px;
+    }
+    .three{
+        display:flex;
+        justify-content:space-around;
+        flex-wrap:wrap;
+        height:200px;
+        margin-top:10px;
+    }
+    .grey{
+        background-color: grey;
+        height:200px;
+        flex-basis:20%;
+    }
+    @media screen and(min-width:500px){
+        .one{
+            flex-basis: 100%;
+        }
+        .box{
+            flex-basis:100%;
+        }
+        .grey{
+            flex-basis:100%;
+        }
+    }
+    @media screen and(min-width:800px){
+        .one{
+            flex-basis: 100%;
+        }
+        .box{
+            flex-basis:100%;
+        }
+        .grey{
+            flex-basis:50%;
+        }
+    }
+
+</style>
+<div class="container">
+    <div class="one">
+    </div>
+    <div class="two">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <div class="three">
+        <div class="grey"></div>
+        <div class="grey"></div>
+        <div class="grey"></div>
+        <div class="grey"></div>
+    </div>
+       
+</div>

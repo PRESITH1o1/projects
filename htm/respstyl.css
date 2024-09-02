@@ -1,0 +1,15 @@
+.box{
+    border-color:black;
+    border-width:5px;
+    border-style:solid;
+    display:inline-block;
+    width:800px;
+    padding:10px;
+}
+.one{
+    margin:30px;
+}
+p{
+    display:inline;
+    margin-left:10px;
+}

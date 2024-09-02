@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    color:white;
+    padding:10px;
+}
+.liked{
+    display:flex;
+    flex-basis:20%;
+    padding:10px;
+    flex-grow:1;
+    gap:16px;
+    align-items: center;
+}
+.liked:hover{
+    background-color: dimgray;
+}
+.pictures{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    padding:10px;
+}
+.box{
+    flex:1;
+    padding:7px;
+    text-align:center;
+
+}
+.box:hover{
+    background-color: dimgray;
+}
